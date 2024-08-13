@@ -20,4 +20,4 @@ ARG RENDER_SERVICE_NAME=datadog
 ENV DD_BIND_HOST=$RENDER_SERVICE_NAME
 ENV DD_HOSTNAME=$RENDER_SERVICE_NAME
 
-RUN apt-get update && && apt-get upgrade && apt-get install vim
+RUN apt-get update && apt-get upgrade && apt-get install vim
